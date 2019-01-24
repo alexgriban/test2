@@ -1,0 +1,33 @@
+a {
+    color: orangered;
+    font-size: 20px;
+}
+/* fhfdkgf*/
+
+p{
+    margin: 50px;
+}
+.shop-items{
+    background: aliceblue;
+}
+h2.first-heading{
+    color: red;
+}
+h2 .c1{
+    color: #4160ff;
+}
+
+/*[href^="http://"] начинается на
+[href$=".png"] заканчивается на
+
+[href^="http://"][href$=".png"] и то и то */
+
+h2 ~ button{
+     color: red;
+ }
+h2 + button{
+    color: #30ff24;
+}
+.shop-items>.hint{
+    color: aqua;
+}

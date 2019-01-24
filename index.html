@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" !--media="print"--!>
 </head>
-<div>
+<body>
+<div class="wrapper">
     <header>
         <nav>
             <ul>
-                <li><a href="/">Main</a></li>
+                <li><a style="color:darkgreen; font-size: 25px; href="/">Main</a></li>
                 <li><a href="/">Shop</a></li>
                 <li><a href="/">Contacts</a></li>
             </ul>
@@ -17,9 +19,23 @@
     <section>
         <br>
         <div class="shop-items">
-            <div class="shop-item">Books</div>
-            <div class="shop-item">Сomics</div>
-            <div class="shop-item">Magazin</div>
+            <div class="hint">ladfjfdflsjgh</div>
+            <div class="shop-item">
+                <h2 class="first-heading">Books <span class="c1">$4.10</span></h2>
+                <div>Lorem ipsum dolor sit amet.</div>
+                <button>buy</button>
+                <div class="hint">dsaldkafsdk</div>
+            </div>
+            <div class="shop-item">
+                <h2>Magazins <span>$5.10</span></h2>
+
+                <button>buy</button>
+            </div>
+
+            <div class="shop-item">
+                <h2>Comics <span>$3.07</span></h2>
+                <div>Lorem ipsum dolor sit amet.</div>
+                <button>buy</button></div>
         </div>
     </section>
     <div>
@@ -32,6 +48,7 @@
     </div>
     <br>
     <footer>
+        <div>
         <strong>
             Our contacts:
         </strong>
@@ -39,6 +56,17 @@
         Phone number:
 
         <a href="tel:0932281314">0932281314</a>
+        </div>
+        <div>
+            <form action="">
+                <div>
+                     <input type="text" placeholder="Name">
+                </div>
+                <div>
+                    <input type="password" placeholder="password">
+                </div>
+            </form>
+        </div>
     </footer>
 </div>
 </body>
